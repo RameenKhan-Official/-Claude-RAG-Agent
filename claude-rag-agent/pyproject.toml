@@ -1,0 +1,13 @@
+[project]
+name = "claude-rag-agent"
+version = "0.1.0"
+description = "A document-grounded RAG chatbot with an agentic tool-use loop, powered by the Claude API."
+requires-python = ">=3.10"
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]
