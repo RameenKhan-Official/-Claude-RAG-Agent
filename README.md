@@ -180,4 +180,3 @@ startup in `src/config.py`:
 ## License
 
 MIT — see [LICENSE](./LICENSE).
-
